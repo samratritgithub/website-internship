@@ -1,0 +1,861 @@
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px
+}  
+.upperbar{
+ background-color: #1c549c;
+ width: 100%;
+ height: 40px;
+ 
+  }
+  .contact{
+    position: relative;
+    top: 7px;
+    padding-left:90%; ;
+    text-decoration: none;
+}
+.contact a{
+  text-decoration: none;
+}
+.topbar{
+  background-color: transparent;
+  max-height: 10px;
+  display: flex;
+  transition: all 0.3s ease-out;
+}
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover; 
+    top: 20px;
+    transition: all 0.3s ease-out;
+}
+
+.carousel-inner {
+    display: flex;
+   
+}
+
+.carousel-item {
+    position: relative;
+    min-width: 100%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+
+.carousel img {
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    transition: all 0.3s ease-out;
+}
+
+.carousel video {
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 400px;
+    left: 100px;
+    font-size: 24px;
+    font-family:'Segoe UI', Verdana, sans-serif;
+    color: white;
+    background-color:transparent;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-out;
+}
+
+
+.carousel-controls {
+    position: absolute;
+    top: -3%;
+    width: 100%;
+    height: 1px;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: transparent;
+  border: none;
+  width: 70px;
+  padding: 10px;
+  cursor: pointer;
+}
+.carousel-caption a{
+    color:white;
+    position: absolute;
+}
+.carousel-caption a:hover{
+    color:#1c549c;
+    transition: all 0.3s ease-out;
+}
+.upperbar a{
+    color: white;
+    transition: all 0.3s ease-out;
+}
+.navbar{
+    position: relative;
+  top:0;
+  left: 0;
+  width: 100%; 
+  display: flex;
+  justify-content: center; 
+
+  top: -4px;
+  height: 400px;
+  background:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0))
+  
+}
+
+
+.logo{
+    padding-right:200px;
+    padding-top: 30px;
+    
+}.logo2{
+    justify-content: right;
+    padding-left: 10px;
+    padding-top:30px ;
+    position: relative;
+  }
+  .link {
+    background-color:transparent;
+    color: white;
+    padding-left: 20px;
+    font-size: 14px;
+    padding-bottom: 355px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    padding-top:40px;
+  }
+  .link a{
+    color: white;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+  }
+  .link a:hover{
+    color: #19447e;
+    transition: all 0.3s ease-out;}
+  .dropbtn {
+    background-color:transparent;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    justify-content: center; 
+    display: inline-block;
+    padding-top:40px;
+    transition: all 0.3s ease-out;
+  }
+  
+  .dropbtn2 {
+    background-color:transparent;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    justify-content: center; 
+    display: inline-block;
+    padding-top:40px;
+    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .dropbtn3 {
+    background-color:transparent;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    justify-content: center; 
+    display: inline-block;
+    padding-top:40px;
+    transition: all 0.3s ease-out;
+  }
+  .dropbtn4 {
+    background-color:transparent;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    justify-content: center; 
+    display: inline-block;
+    padding-top:40px;
+    transition: all 0.3s ease-out;
+}
+  
+    .dropbtn5 {
+      background-color:transparent;
+      color: white;
+      padding: 15px;
+      font-size: 14px;
+      border: none;
+      cursor: pointer;
+      justify-content: center; 
+      display: inline-block;
+      padding-top:40px;
+      transition: all 0.3s ease-out;
+    }
+  
+      .dropbtn6 {
+        background-color:transparent;
+        color: white;
+        padding: 15px;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        justify-content: center; 
+        display: inline-block;
+        padding-top:40px;
+        transition: all 0.3s ease-out;
+    }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    background: transparent;
+   
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: .75rem;
+    transition: all 0.3s ease-out;
+  
+    
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: .75rem;
+    
+  }
+  .dropdown-submenu{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: .75rem;
+  
+  }
+  .dropdown-content a:hover {
+    display: block;
+    background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn{
+    color: #19447e;
+  }
+    .link:hover .dropbtn {
+    color: #19447e;
+  }  
+  .dropdown:hover .dropbtn2{
+    color: #19447e;
+  }
+    .link:hover .dropbtn2 {
+    color: #19447e;
+  }  
+  .dropdown:hover .dropbtn3{
+    color: #19447e;
+  }
+    .link:hover .dropbtn3 {
+    color: #19447e;
+  }  
+  .dropdown:hover .dropbtn4{
+    color: #19447e;
+  }
+    .link:hover .dropbtn4 {
+    color: #19447e;
+  }  
+  .dropdown:hover .dropbtn5{
+    color: #19447e;
+  }
+    .link:hover .dropbtn5 {
+    color: #19447e;
+  }  
+  .dropdown:hover .dropbtn6{
+    color: #19447e;
+  }
+    .link:hover .dropbtn6 {
+    color: #19447e;
+  }  
+  .space{
+    padding-right:-200%     ;
+  }
+  .gradient{position: relative;
+    top: 400px;
+  
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+    height: 100px;
+    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
+    
+  }
+  .navlow{
+    background-color: black;
+    height: 500px;
+  
+  }
+  .body2{
+    background-image:url(https://www.tatamotors.com/wp-content/themes/TataMotors/images/Background_About_us.webp);
+    height: 1200px;
+    width: 100%;
+    position: absolute;
+    border-bottom: 10px solid white ;
+  }
+  .body2_cont{
+     width: 100%;
+    overflow:hidden;
+  }
+  .body2_img{
+    padding-top: 250px;
+    max-width: 100%;
+    background-position: 0px 0px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    position: absolute;
+
+  }
+  .car1{
+    background-position: 0px 0px;
+    left: 50%;
+    top: 72%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    position: absolute;
+
+
+  }
+  .car2{
+    position: relative;
+    height: 800px;
+    width: 70%;
+    padding-left:70% ;
+    padding-top: 300px;
+    
+
+  }
+  .car3{
+    background-position: 0px 0px;
+    max-width: 90%;
+    right: 70%;
+    top: 25%;
+    z-index: 0;
+    position: absolute;
+  
+  }
+  .aboutus1{
+    color: black;
+    font-size:15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 5%;
+    z-index: 0;
+    position: absolute;
+
+  }
+  .para2{
+    color: black;
+    font-size:30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 8%;
+    z-index: 0;
+    position: absolute;
+
+
+  }
+  .para3{
+    color: black;
+    font-size:20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 18%;
+    z-index: 0;
+    position: absolute;
+
+  }
+  .side_r{
+    color: black;
+    font-size:20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    top: 18%;
+    z-index: 0;
+    position: absolute;
+  }
+  .side_l{
+    color: black;
+    font-size:20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    right: 2%;
+    transform: translate(-50%, -50%);
+    top: 18%;
+    z-index: 0;
+    position: absolute;
+    transition: all 0.3s ease-out;
+  }
+  .para3 a{
+    color: black;
+    transition: all 0.3s ease-out;
+  }
+  .para3 a:hover{
+    color:#4a8add;
+    transition: all 0.3s ease-out;
+  }
+  .slide2_cont{
+    background-size: cover;
+    width: 100%;
+    padding-top: 1200px;
+    height: 1100px;
+    margin-left: 0;
+    margin-right: 0;
+    background-size: cover;
+    transition: all 0.3s ease-out;
+  }
+ .slide2{
+  width: 100%;
+  margin-left: 0;
+    margin-right: 0;
+    background-size: cover;
+    transition: all 0.3s ease-out;
+
+  
+ }
+ .car_anime{
+  background-color: white;
+  height: 500px;
+  width: 100%;
+  transition: all 0.3s ease-out;
+  
+
+ }
+ .car_anime1{
+  margin-left: 600px;
+
+    
+}
+ .car_anime_dot{
+  margin-top: -400px;
+  max-height: 20%;
+  padding-left: 65%;
+  transition: all 0.3s ease-out;
+ }
+ .text-ani{
+  font-size: 20px;
+  padding-left: 50px;
+  font-family:'Segoe UI', Verdana, sans-serif; ;
+ }
+ .text-ani h1{
+  color: #307fe2;
+ }
+ .text-ani a {
+  color: rgb(22, 22, 68);
+ }
+ .text-ani a :hover{
+  color: #307fe2;
+ }
+ .stock{
+ background-image: url(https://www.tatamotors.com/wp-content/themes/TataMotors/images/IR_BG_image_Desktop.webp);
+  background-repeat: no-repeat;
+  height: 850px;
+  width: 100%;
+  display:flex;
+  margin-left: 0;
+  margin-right: 0;
+  background-size: cover;
+  color: white;
+  transition: all 0.3s ease-out;
+ }
+ 
+ .card1{
+  background-color: rgb(255, 255, 255,0.8);
+  display: block;
+  justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 60px solid #307FE2;
+    
+    
+}
+.card2{
+  background-color: rgb(255, 255, 255,0.8);
+  display: block;
+  justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 60px solid #307FE2;
+
+
+    }
+    
+.card1img{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10;
+}
+ 
+.card2img{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10;
+}
+.cont1{
+  padding: 100px;
+  left: 200;
+
+  margin-top: 300px;
+  display: flex;
+  position: absolute;
+  transition: all 0.3s ease-out;
+}
+.space2{
+  width: 30px;
+}
+.stock-price{
+ padding-left: 400px;
+ margin-top: -50px;
+}
+.text1{
+  color: white;
+  margin-left: -25px;
+  margin-right: -30px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease-out;
+}
+.card1:hover{
+  border-color: black;
+  transition: all 0.3s ease-out;
+}
+.card2:hover{
+  border-color: black;
+  transition: all 0.3s ease-out;
+}
+.s_cont{
+  
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  position: relative;
+
+}
+
+
+.st2{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  padding-top: 100px;
+  padding-left: 100px;
+  font-size: 20px;
+  position: relative;
+}
+.st2 a{
+  color: white;
+  font-size: 25px;
+}
+.st2 a:hover{
+  color: #2f86f1;
+}
+
+.last2_cont1{
+  align-items: center;
+  width: 1500px;
+  height: 600px;
+  border-radius: 20px;
+  position: relative;
+  background-image: url(https://www.tatamotors.com/wp-content/themes/TataMotors/images/Sustainability-banner-new-home.webp);
+  transform: translate(-50%, -50%);
+  background-size: cover;
+  left: 50%;
+  margin-top: 350px;
+  
+}
+.last2_cont1::before{
+content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #000 0%, rgba(0, 0, 0, 0) 51.77%);
+    z-index: 0;
+    border-radius: 20px;
+  }
+
+.last2_cont2{
+  align-items: center;
+  width: 1500px;
+  height: 600px;
+  border-radius: 20px;
+  position: relative;
+  background-image: url(https://www.tatamotors.com/wp-content/themes/TataMotors/images/home-careers-banner.webp);
+  transform: translate(-50%, -50%);
+  background-size: cover;
+  left: 50%;
+  margin-top: 45px;
+}
+.last2_cont2::before{
+  content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: linear-gradient(-0deg, #000 0%, rgba(0, 0, 0, 0) 51.77%);
+      z-index: 0;
+      border-radius: 20px;}
+.l2_img1{
+  width: 100%;
+}
+.last_2{
+  height: 1050px;
+}
+
+.st3{
+  position: relative;
+  color: white;
+  padding-left: 60px;
+  margin: 0 auto;
+  padding: 100px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  
+}
+.carousel2 {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover; 
+  top: 0px;
+}
+
+.carousel-inner2 {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item2 {
+  position: relative;
+  min-width: 100%;
+  box-sizing: border-box; 
+}
+
+.carousel2 img {
+  filter: brightness(50%);
+  width: 100%;
+  height: 900px;
+  background-size: cover;
+}
+
+.readmore{
+  background-color: #030352;
+  text-decoration: none;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:white;
+  transition: transform 0.5s ease-in-out;
+  border: none;
+}
+.readmore a{
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+}
+.readmore:hover{
+  background-color: #2f86f1;
+  transition: transform 0.5s ease-in-out;
+}
+.carousel-caption2 {
+  position: absolute;
+  bottom: 400px;
+  left: 100px;
+  font-size: 24px;
+  font-family:'Segoe UI', Verdana, sans-serif;
+  color: white;
+  background-color:transparent;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.carousel-controls2 {
+  position: absolute;
+  top: -3%;
+  width: 100%;
+  height: 1px;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  filter: brightness(200%);
+}
+
+.carousel-control2-prev,
+.carousel-control2-next {
+  background-color: transparent;
+  border: none;
+  width: 70px;
+  padding: 10px;
+  cursor: pointer;
+}
+.carousel-caption2 a{
+  color:white;
+  position: absolute;
+}
+.carousel-caption2 a:hover{
+  color:#1c549c;
+}
+
+.card1 a{text-decoration: none;}
+.card2 a{text-decoration: none;}
+
+.carousel-cap {
+  position: absolute;
+  bottom: 400px;
+  left: 100px;
+  font-size: 24px;
+  font-family:'Segoe UI', Verdana, sans-serif;
+  color: white;
+  background-color:transparent;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease-out;
+  top: 20px;
+}
+
+.carousel-cap a{
+  color:white;
+  position: absolute;
+}
+.carousel-cap a:hover{
+  color:#1c549c;
+  transition: all 0.3s ease-out;
+}
+.lastnav{
+  background-color:#0a0a5f;
+  height: 500px;
+  width: 100%;
+  position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.column {
+  max-width:200px; 
+  padding: 0; 
+  font-family:'Segoe UI', Verdana, sans-serif;
+  font-size: 12px;
+}
+.column > div, .column > ul {
+  padding: 5px 12px; 
+}
+.l1 a, .l2 a, .l3 a,.l4 a,.l5 a,.l6 a, .l7 a{
+  font-weight: bold;
+  color: #307fe2;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  margin: 5px 0;
+  color: white;
+  text-size-adjust: 5px;
+}
+.cont_last{
+  display: flex;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  padding-top: 20px;
+}
+ ul li a{
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-out
+ }
+
+ ul li :hover{
+  color: #307fe2;
+ }
+ .search-container {
+  float: right;
+  
+  }
+
+ .email_cont input[type=text] {
+  padding: 6px;
+  margin-top: 400px;
+  font-size: 20px;
+  border: none;
+  border-top-left-radius:200px;
+  border-bottom-left-radius:200px;
+  
+  width:300px;
+}
+
+.email_cont input[type=submit] {
+  background-color: #4a8add;
+  height: 39px;
+  width: 100px;
+  font-size: 20px;
+  border: none;
+  margin: -40px;
+  border-top-right-radius:200px;
+  border-bottom-right-radius:200px;
+ }

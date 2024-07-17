@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar and Video Collision</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+<nav class="upperbar">
+    <div class="contact"><a href="#">Contact</a>
+    </div>
+
+<div id="carouseldemo1" class="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item">
+            <video src="https://www.tatamotors.com/wp-content/themes/TataMotors/video/TML-Desktop-video.mp4" autoplay loop muted></video>
+            <div class="carousel-caption">
+                <h1>A spotlight on</h1>
+                <h1>sustainability</h1>
+                <a href="https://www.tatamotors.com/corporate-responsibility">see how</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/TM_Home_Desktop1.webp" alt="Image 1">
+            <div class="carousel-caption">
+                <h1>Tomorrow's choices</h1>
+                <h1>today</h1>
+                <a href="https://www.tatamotors.com/corporate-responsibility">our commitments</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/TM_Home_Desktop2.webp" alt="Image 2">
+            <div class="carousel-caption">
+                <h1>Embracing<br> clean mobility</h1>
+                <a href="https://www.tatamotors.com/corporate-responsibility">our innovation</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/TM_Home_Desktop3.webp" alt="Image 3">
+            <div class="carousel-caption">
+                <h1>A step ahead</h1>
+                <a href="https://www.tatamotors.com/careers/life-at-tml">Explore our culture</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/TM_Home_Desktop4.webp" alt="Image 4">
+            <div class="carousel-caption">
+                <h1>Connecting aspiration.</h1>
+                <h1>Delivering value.</h1>
+                <a href="https://www.tatamotors.com/careers/life-at-tml">Stay informed</a>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-controls">
+        <button class="carousel-control-prev" onclick="prevSlide1()"><img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/arrow-blue-left.svg" alt="&#10094;"></button>
+        <button class="carousel-control-next" onclick="nextSlide1()"><img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/arrow-blue-right.svg" alt="&#10095;"></button>
+    </div>
+</div>
+</nav>
+
+<nav class="navbar">
+    <div class="logo"><a href="#"><img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/Tata-Motors-logo.svg" alt="Tata Motors"></a></div>
+    <div class="space"></div>
+    <div class="topbar">
+        <button class="link"><a href="#">FUTURE OF MOBILITY</a></button>
+        <div class="dropdown">
+            <button class="dropbtn">ORGANISATION</button>
+            <div class="dropdown-content">
+                <a href="#">Overview &#8599</a>
+                <a href="#">About us</a>
+                <a href="#">Our history</a>
+                <a href="#">Our leadership</a>
+                <a href="#">Our global presence</a>
+                <a href="#">Subsidiaries and other entities</a>
+                <a href="#">Innovations</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn2">BUSINESS</button>
+            <div class="dropdown-content">
+                <a href="#">Commercial vehicles</a>
+                <a href="#">Passenger vehicles</a>
+                <a href="#">Electric vehicles</a>
+                <a href="#">Luxury vehicles</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn3">CORPORATE RESPONSIBILITY</button>
+            <div class="dropdown-content">
+                <a href="#">Overview</a>
+                <a href="#">Planet resilience</a>
+                <a href="#">Working with communities</a>
+                <a href="#">Governance</a>
+                <a href="#">ESG</a>
+                <a href="#">Archive</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn4">INVESTORS</button>
+            <div class="dropdown-content">
+                <a href="#">Investor Overview</a>
+                <a href="#">Financial information</a>
+                <div class="dropdown-submenu">
+                    <a href="#">Quarterly result</a>
+                    <a href="#">Annual report</a>
+                    <a href="#">Subsidiary annual report</a>
+                    <a href="#">Key financial</a>
+                    <a href="#">JLR press archives</a>
+                </div>
+                <a href="#">Governance and regulatory information</a>
+                <div class="dropdown-submenu">
+                    <a href="#">Corporate governance</a>
+                    <a href="#">Board of directors</a>
+                    <a href="#">Board committees</a>
+                    <a href="#">Stock exchange and listing</a>
+                    <a href="#">Intimation to stock exchange</a>
+                    <a href="#">Members reference</a>
+                    <a href="#">SEC</a>
+                </div>
+                <a href="#">Shareholder information</a>
+                <a href="#">Fixed income</a>
+                <a href="#">Volumes</a>
+                <a href="#">ESOP</a>
+                <a href="#">Other information</a>
+                <a href="#">Investor Calendar</a>
+                <a href="#">ESG profile</a>
+                <a href="#">Extraordinary</a>
+                <a href="#">Disclaimer</a>
+                <a href="#">Investor contact</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn5">NEWSROOM</button>
+            <div class="dropdown-content">
+                <a href="#">Press releases</a>
+                <a href="#">Thought leadership</a>
+                <a href="#">Media library</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn6">CAREERS</button>
+            <div class="dropdown-content">
+                <a href="#">Overview</a>
+                <a href="#">Life@ Tata Motors</a>
+                <a href="#">Openings@ Tata Motors</a>
+                <a href="#">Early Careers</a>
+            </div>
+        </div>
+    </div>
+    <div class="logo2"><a href="#"><img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/tata_logo.svg"></a></div>
+</nav>
+
+<nav class="gradient"></nav>
+<nav class="navlow"></nav>
+
+<div class="body2">
+    <div class="body2_img">
+        <img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/Dots_About_us.png">
+    </div>
+    <div class="body2_cont">
+        <div class="car1"><img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/curvvfront.webp"></div>
+        <div class="car2"><img class="car2_img" src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/AceEV.webp"></div>
+        <div class="car3"><img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/Nexon-Side.webp"></div>
+    </div>
+    <div class="aboutus1">About us</div>
+    <div class="para2"><b>Agile, new-age and future-ready</b></div>
+    <div class="para3">Part of the USD 150 billion Tata Group, Tata Motors, a USD 44 billion organisation, is a leading<br> global automobile manufacturer of cars, utility vehicles, pick-ups, trucks and buses. We are<br> India’s market leader in commercial vehicles and amongst the top three in the passenger<br> vehicles market. We prioritise human centricity with technological prowess and engineering <br>excellence to make cargo and passenger mobility safer, smarter and greener.<br><br><a href="https://www.tatamotors.com/careers/life-at-tml">Read more</a></div>
+    <div class="side_r"><h1>1 million+</h1><br>vehicles sold annually</div>
+    <div class="side_l"><h1>91,000+</h1><br>collective workforce strength</div>
+</div>
+
+<div class="slide2_cont">
+    <div id="carouseldemo2" class="carousel2">
+        <div class="carousel-inner2">
+            <div class="carousel-item2">
+                <img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/legacy-bg1.webp" alt="Image 1" >
+                 <div class="carousel-cap">
+                        <h4>Our legacy</h4>
+                        <h1>Quality is first
+                            <br> engineered, and then
+                            <br>it is insepected
+                        </h1>
+                        <h5><i>J.R.D Tata</i></h5>
+                    </div>
+            </div>
+            <div class="carousel-item2">
+                <img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/legacy-bg2.webp" alt="Image 2">
+                <div class="carousel-cap">
+                    <h4>Our legacy</h4>
+                    <h1>Tata motors is taking
+                        <br>concerted action to
+                        <br>be future-ready
+                    </h1>
+                    <h2> Natarajan chandrasekaran</h2>
+                    <p><i>NON-Executive director and chairman</i></p>
+                    <div>
+                        <h1>77 </h1>
+                        
+                    </div>
+                    <a href="#">Our leadership</a>
+                </div>
+            </div>
+            <div class="carousel-item2">
+                <img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/legacy-bg3.webp" alt="Image 3">
+                <div class="carousel-cap">
+                    <h4>Our legacy</h4>
+                    <h1>Rich heritage in inovation
+                        <br>and exellence
+                    </h1>
+                </div>
+            </div>
+            <div class="carousel-item2">
+                <img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/legacy-bg4.webp" alt="Image 4">
+                <div class="carousel-cap">
+                    <h4>Our legacy</h4>
+                    <h1>Pioneering sustainable
+                        <br>mobility solutions
+                        <br>25+
+                    </h1>
+                    <h3>Facilities across
+                        <br>the globe
+                    </h3>
+                    <a href="#">Our global presence</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-controls2">
+            <button class="carousel-control2-prev" onclick="prevSlide2()"><img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/arrow-blue-left.svg" alt="&#10094;"></button>
+            <button class="carousel-control2-next" onclick="nextSlide2()"><img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/arrow-blue-right.svg" alt="&#10095;"></button>
+        </div>
+    </div>
+</div>
+
+<div class="car_anime">
+   <div class="text-ani"> Our businesses
+<h1>New forever</h1>
+<h4>Cutting-edge designs, quest to excel and promise to <br>delight customers keeps us ahead of the curve. Our cars <br>and SUVs offer best-in-class safety and superior driving<br> experience.</h4>
+<br><a href="https://www.tatamotors.com/passenger-vehicles">Discover passenger vehicles</a>
+</div>
+   
+    <div class="car_anime_dot"><img class="dot_img1" src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/Dots_businesses.png" alt=""></div>
+    <div class="car_anime1"><img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/m-home-car-ev-slider-2.webp" width="900px" ></div>
+</div>
+
+<div class="stock">
+
+
+    <div class="st2">Investor relations<br><h1>Connecting aspirations,<br>creating value</h1><a href="https://www.tatamotors.com/investors">Investor relations</a></div>
+    <div class="cont1">
+        <div class="card1">
+            <div class="card1img"><a href="https://www.tatamotors.com/annual-reports">
+                <img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/inext-mag1.webp">
+                <div class="text1">Integrated Annual Report 2023-24</div></a>
+            </div>
+        </div>
+        <div class="space2"></div>
+        <div class="card2"><a href="https://www.tatamotors.com/quarterly-results">
+            <div class="card2img">
+                <img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/Quarter-results-image_Blue.webp" alt="">
+                <div class="text1">Result of Quarter Ending 31st March 2024</div></a>
+            </div>
+        </div>
+        <div class="stock-price"><iframe
+            referrerpolicy="origin"
+            width="700"
+            height="450"
+            style="background: #FFFFFF; padding: 10px; border: none; border-radius: 5px; box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)"
+            src="https://jika.io/embed/area-chart?symbol=TATAMOTORS.NS&selection=all&closeKey=close&&graphColor=1652f0&textColor=161c2d&backgroundColor=FFFFFF&fontFamily=Nunito"
+            ></iframe></div>
+     
+    </div>
+
+</div>
+
+<div class="last_2">
+    <div class="last2_cont1">
+        <div class="l2_img1">
+          <div class="st3"> <h3>Sustainability</h3><h1> Our roadmap
+            to Net Zero</h1>
+            <h3>We are making responsible choices. By prioritising sustainable mobility,<br> safety, emission reduction and use of eco-friendly materials, we are,<br> driving meaningful change.</h3>
+        <button class="readmore"><a href="https://www.tatamotors.com/corporate-responsibility">Read More</a></button>
+        </div></div>
+    </div>
+    <div class="last2_cont2">
+        <div class="l2_img2">
+            <div class="st3">
+          <h4>Careers</h4>
+    <h1>United by passion</h1>
+    <h1>and talent</h1>
+    <button class="readmore"><a href="https://www.tatamotors.com/careers/life-at-tml">Our culture </a></button> <button class="readmore"><a href="https://www.tatamotors.com/careers/business-verticals">Explore opportunities </a></button></div>
+        </div>
+    </div>
+</div>
+
+<div class="lastnav">
+  <div class="cont_last">
+    <div class="column">
+        <div class="l1">
+            <a href="https://www.tatamotors.com/future-of-mobility">FUTURE OF MOBILITY</a>
+        </div>
+        <div class="l2"><a href=""> BUSINESS</a></div>
+        <ul>
+            <li><a href="https://www.tatamotors.com/business/commercial-vehicles">Commercial vehicles</a></li>
+            <li><a href="https://www.tatamotors.com/business/passenger-vehicles">Passenger vehicles</a></li>
+            <li><a href="https://www.tatamotors.com/business/electric-vehicles">Electric vehicles</a></li>
+            <li><a href="https://www.tatamotors.com/business/luxury-vehicles">Luxury vehicles</a></li>
+        </ul>
+    </div>
+    <div class="column">
+        <div class="l3"><a href="">ORGANISATION</a></div>
+        <ul>
+            <li><a href="https://www.tatamotors.com/organisation">Overview</a></li>
+            <li><a href="https://www.tatamotors.com/organisation/about-us">About us</a></li>
+            <li><a href="https://www.tatamotors.com/organisation/our-history">Our history</a></li>
+            <li><a href="https://www.tatamotors.com/organisation/our-leadership">Our leadership</a></li>
+            <li><a href="https://www.tatamotors.com/organisation/our-global-presence">Our global presence</a></li>
+            <li><a href="https://www.tatamotors.com/organisation/our-global-presence">Subsidiaries and other entities</a></li>
+            <li><a href="https://www.tatamotors.com/organisation/innovation">Innovations</a></li>
+        </ul>
+    </div>
+    <div class="column">
+        <div class="l4"><a href="">CORPORATE RESPONSIBILITY</a></div>
+        <UL>
+            <li><a href="https://www.tatamotors.com/corporate-responsibility">Overview</a></li>
+            <li><a href="https://www.tatamotors.com/corporate-responsibility/planet-resilience">Planet resilience</a></li>
+            <li><a href="https://www.tatamotors.com/corporate-responsibility/working-with-communities">Working with communities</a></li>
+            <li><a href="https://www.tatamotors.com/corporate-responsibility/governance">Governance</a></li>
+        </UL>
+    </div>
+    <div class="column">
+        <div class="l5"><a href="">INVESTORS</a></div>
+        <ul>
+        <li><a href="https://www.tatamotors.com/investors">Overview</a></li>
+        <li><a href="https://www.tatamotors.com/quarterly-result/">Financial information</a></li>
+        <li><a href="https://www.tatamotors.com/corporate-governance">Governance and regulatory information</a></li>
+        <li><a href="https://www.tatamotors.com/corporate-governance">Shareholder information</a></li>
+        <li><a href="https://www.tatamotors.com/listed-securities-information/">Fixed income</a></li>
+        <li><a href="https://www.tatamotors.com/volumes/">Volumes</a></li>
+        <li><a href="https://www.tatamotors.com/esop/">ESOP</a></li>
+        <li><a href="https://www.tatamotors.com/other-information/">Other information</a></li>
+        <li><a href="https://www.tatamotors.com/financial-calendar/">Investor calendar</a></li>
+        <li><a href="https://esg.churchgatepartners.com/login/companyprofile?id=320034003200240024004100530048004F004B0041004E0041004E00590041004100560041004E004900410053004800570049004E00490024002400">ESG profile</a></li>
+        <li><a href="https://www.tatamotors.com/extraordinary-general-meeting-2019/">Extraordinary meeting</a></li>
+        <li><a href="https://www.tatamotors.com/disclaimer/">Disclaimer</a></li>
+        <li><a href="https://www.tatamotors.com/newsroom/investor-contacts/">Investor contacts</a></li>
+        </ul>
+    </div>
+    <div class="column">
+        <div class="l6"><a href="">NEWSROOM</a></div>
+        <ul>
+            <li><a href="https://www.tatamotors.com/newsroom/press-releases">Press releases</a></li>
+            <li><a href="https://www.tatamotors.com/newsroom/thought-leadership">Thought leadership</a></li>
+            <li><a href="https://www.tatamotors.com/newsroom/media-library">Media library</a></li>
+        </ul>
+    </div>
+    <div class="column">
+        <div class="l7"><a href="">CAREERS</a></div>
+        <ul>
+            <li><a href="https://www.tatamotors.com/careers">Overview</a></li>
+            <li><a href="https://www.tatamotors.com/careers/life-at-tml">Life @ Tata Motors</a></li>
+            <li><a href="https://www.tatamotors.com/careers/openings">Openings @ Tata Motors</a></li>
+            <li><a href="https://www.tatamotors.com/careers/early-careers">Early Careers</a></li>
+            <li><a href="https://www.tatamotors.com/careers/faqs">FAQs</a></li>
+        </ul>
+    </div>
+    <div class="email_cont">
+        <input type="text" placeholder="enter your email" name="search">
+      <input type="submit" placeholder="subscribe" id="subscribe" >
+ 
+    </div>
+  </div>
+</div>
+
+<script>
+    let Slide1 = 0;
+    let slideInterval1;
+
+    function showSlide1(index) {
+        const slides = document.querySelectorAll('.carousel-item');
+        if (index >= slides.length) {
+            Slide1 = 0;
+        } else if (index < 0) {
+            Slide1 = slides.length - 1;
+        } else {
+            Slide1 = index;
+        }
+        const offset = -Slide1 * 100;
+        document.querySelector('.carousel-inner').style.setProperty('transform', `translateX(${offset}%)`);
+    }
+
+    function nextSlide1() {
+        showSlide1(Slide1 + 1);
+    }
+
+    function prevSlide1() {
+        showSlide1(Slide1 - 1);
+    }
+
+   
+        showSlide1(Slide1);
+        
+
+</script>
+
+<script>
+    let Slide2 = 0;
+    let slideInterval2;
+
+    function showSlide2(index) {
+        const slides = document.querySelectorAll('.carousel-item2');
+        if (index >= slides.length) {
+            Slide2 = 0;
+        } else if (index < 0) {
+            Slide2 = slides.length - 1;
+        } else {
+            Slide2 = index;
+        }
+        const offset = -Slide2 * 100;
+        document.querySelector('.carousel-inner2').style.setProperty('transform', `translateX(${offset}%)`);
+    }
+
+    function nextSlide2() {
+        showSlide2(Slide2 + 1);
+    }
+
+    function prevSlide2() {
+        showSlide2(Slide2 - 1);
+    }
+
+    function startAutoplay2() {
+        slideInterval2 = setInterval(nextSlide2, 5000);
+    }
+
+    function stopAutoplay2() {
+        clearInterval(slideInterval2);
+    }
+
+    document.addEventListener('DOMContentLoaded', (event) => {
+        showSlide2(Slide2);
+        startAutoplay2();
+    });
+</script>
+
+</body>
+</html>
